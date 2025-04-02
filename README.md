@@ -1,53 +1,79 @@
-Healthcare Data Analysis and Insights
-Objective
-The aim of this project is to analyze healthcare data to extract actionable insights that could help improve patient care and healthcare resource management. By working with multiple datasets, I utilized various Excel techniques to clean, transform, and analyze the data to uncover meaningful patterns.
+# Healthcare Data Analysis & Insights
 
-Project Overview
-This project focuses on analyzing healthcare data, such as patient health profiles, medical histories, and healthcare costs. The insights gained from this analysis are intended to assist healthcare stakeholders in making informed decisions regarding patient care and resource allocation.
+## ❓ Problem Statement
+The objective of this project is to analyze healthcare data to extract actionable insights that could help improve patient care and healthcare resource management. By working with multiple datasets, Advanced Excel techniques were utilized to clean, transform, and analyze the data to uncover meaningful patterns.
 
-Key Features:
-Data Sources: 3 healthcare datasets
-Tools Used: Microsoft Excel
-Focus Areas: Data cleaning, transformation, and visual analysis
-Data Cleaning and Transformation
-Basic Data Cleaning: Learned and applied techniques such as using mean, median, and mode to clean the data.
-Patient Segmentation:
-BMI (Body Mass Index): Segregated patients as Underweight, Healthy, Overweight, and Obese.
-Blood Sugar Levels: Classified patients as Normal, Pre-Diabetic, and Diabetic.
-Data Analysis
-Smoking and Cancer Risk:
+## 📊 Data Understanding
+The dataset includes the following key attributes:
+- **Patient Health Profile**: BMI, Blood Sugar Levels, Smoking Status
+- **Medical History**: Heart Issues, Transplants, Cancer History, Number of Major Surgeries
+- **Healthcare Costs**: Hospital Charges, Hospital Tier, City Tier
+- **Demographics**: Age, State ID
 
-Insight: Using a Donut Chart, I found that non-smokers have a higher cancer history compared to smokers, indicating that smoking might not be the only factor contributing to cancer risk.
-Obesity & Cancer Correlation: Through further analysis, I observed that obese and overweight patients were more prone to cancer than those with a normal weight.
-Research Findings: Web research showed that being overweight can lead to insulin resistance, increasing the risk of colon cancer.
-Blood Sugar and Surgeries:
+## ⚙️ Technology Stack
+- **Excel (Advanced Features)**: Data Cleaning, Transformation, Pivot Tables
+- **ETL Process in Excel**: Data preprocessing using formulas and functions
+- **Pivot Tables:** Data aggregation and summarization
+- **Data Visualization:** Charts, slicers, and dashboards
 
-Diabetes Analysis: Investigated the blood sugar levels of obese and overweight patients and found that most were either diabetic or pre-diabetic.
-Surgeries & Blood Sugar: Using another Donut Chart, I found that patients with uncontrolled blood sugar levels underwent more than two surgeries.
-Hospital Charges:
+## 🏗️ Methodology
+1. **Data Cleaning & Preparation**
+   - Handled missing values using mean, median, and mode.
+   - Standardized data format.
+   - Removed duplicates and unnecessary columns.
+   - Categorized BMI into Underweight, Healthy, Overweight, and Obese.
+   - Classified blood sugar levels as Normal, Pre-Diabetic, and Diabetic.
+   
+2. **Data Aggregation & Transformation**
+   - Segmented patient data based on BMI and Blood Sugar levels.
+   - Used conditional formulas (`IF`, `VLOOKUP`, `COUNTIF`) for categorization.
+   - Created Pivot Tables to generate key insights.
 
-Obesity & Costs: Obese patients were found to incur higher hospital charges compared to others, even if their blood sugar levels were normal.
-Valuable Insight: Maintaining a healthy weight through exercise and diet is critical to preventing diseases such as cancer and reducing healthcare costs.
-Hospital Charge Trends:
+3. **Data Analysis & Insights**
+   - **Smoking and Cancer Risk:** A **Donut Chart** revealed that non-smokers had a higher cancer history, suggesting that other factors contribute to cancer risk.
+   - **Obesity & Cancer Correlation:** Overweight and obese patients showed a higher incidence of cancer.
+   - **Diabetes & Surgeries:** Patients with uncontrolled blood sugar levels underwent more surgeries.
+   - **Obesity & Hospital Costs:** Obese patients incurred higher hospital charges, even with normal blood sugar levels.
+   - **Hospital Charge Trends:**
+     - **Column Chart:** Tier 2 hospitals had the highest charges, potentially due to limited healthcare infrastructure.
+     - **Line Chart:** Hospital charges increased with age, with a sharp rise after 60.
+   - **Age, BMI, and Blood Sugar Trends:**
+     - BMI and blood sugar levels increased with age.
+     - After 60, BMI declined, while blood sugar spiked.
+     - Unexpected high obesity rates among younger patients (25-35 years).
 
-Tier 2 Hospitals: A Column Chart revealed that Tier 2 hospitals had the highest hospital charges. This may be due to the developing nature of these cities, which may lack proper sanitation and awareness about physical health.
-Charges by Age: With the help of a Line Chart, I observed that hospital charges increase with age, but after 60, these charges rise dramatically due to age-related factors.
-Age, BMI, and Blood Sugar Trends:
+4. **Dashboard Creation**
+   - Designed an **interactive Excel dashboard**.
+   - Used dynamic charts and slicers for filtering insights.
+   - Visualized trends in BMI, Blood Sugar, and Hospital Charges.
 
-As age increases, both blood sugar and BMI levels rise.
-Beyond 60 years old, blood sugar levels increase sharply, while BMI levels decrease.
-Young Patients (25-35): A surprising observation was the presence of obesity among younger patients, as indicated by peaks in the BMI trend.
-Conclusion
-This analysis highlights the importance of maintaining a healthy weight and blood sugar levels to prevent cancer and reduce healthcare costs. Additionally, Tier 2 cities should focus on improving healthcare infrastructure and awareness to minimize hospital charges.
+## 📈 Key Insights Generated
+### 🔹 Patient Health Trends
+- Obesity is a major contributor to high healthcare costs.
+- Young patients (25-35) showing obesity is a concerning trend.
+- Diabetes is strongly linked to multiple surgeries and hospitalizations.
 
-Key Excel Functions & Techniques Used:
-Data Cleaning: Mean, Median, Mode functions.
-Data Segmentation: Conditional formatting and formulas to categorize BMI and blood sugar levels.
-Charts:
-Donut Chart: Used to compare smokers vs. non-smokers and their health histories.
-Column Chart: Displayed hospital charges in different regions.
-Line Chart: Showed trends in hospital charges by age.
-Visualizations
-Donut Chart: Smoking and Cancer History Comparison
-Column Chart: Hospital Charges by Tier
-Line Chart: Hospital Charges and BMI Trends by Age
+### 🔹 Hospital & Cost Analysis
+- Tier 2 hospitals charge more, possibly due to lack of awareness and infrastructure.
+- Healthcare costs rise significantly after 60 due to age-related factors.
+
+## 📊 Business Impact & Benefits
+✅ **Preventive Healthcare Strategies**: Identifying high-risk patients for early intervention.
+✅ **Cost Optimization**: Understanding key cost drivers to reduce hospital expenses.
+✅ **Resource Allocation**: Data-driven decisions for hospital resource planning.
+✅ **Public Health Awareness**: Encouraging healthier lifestyles to reduce long-term healthcare costs.
+
+## 🚀 Getting Started
+1. Download the dataset and open in Excel.
+2. Follow the data cleaning and transformation steps.
+3. Use Pivot Tables to analyze key metrics.
+4. Build the dashboard using slicers and charts.
+
+## 🤝 Contributing
+💡 Open for feedback & collaborations! Feel free to suggest improvements and contribute to this project.
+
+## 👨‍💻 Author & 📌 Contact
+**Dushyanth KM** 🔗 [LinkedIn](https://www.linkedin.com/in/dushyanth-km-666660260/)
+
+## 📢 About
+This project showcases how **Advanced Excel techniques** can be leveraged for effective healthcare data analytics and visualization.
