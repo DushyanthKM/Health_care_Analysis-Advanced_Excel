@@ -1,7 +1,10 @@
 # Healthcare Data Analysis & Insights
 
 ## ❓ Problem Statement
-The objective of this project is to analyze healthcare data to extract actionable insights that could help improve patient care and healthcare resource management. By working with multiple datasets, Advanced Excel techniques were utilized to clean, transform, and analyze the data to uncover meaningful patterns.
+The aim of this project is to analyze healthcare data to extract actionable insights that could help improve patient care and healthcare resource management. By working with multiple datasets, I utilized various Excel techniques to clean, transform, and analyze the data to uncover meaningful patterns.
+
+## Project Overview
+This project focuses on analyzing healthcare data, such as patient health profiles, medical histories, and healthcare costs. The insights gained from this analysis are intended to assist healthcare stakeholders in making informed decisions regarding patient care and resource allocation.
 
 ## 📊 Data Understanding
 The dataset includes the following key attributes:
@@ -11,7 +14,6 @@ The dataset includes the following key attributes:
 - **Demographics**: Age, State ID
 
 ## ⚙️ Technology Stack
-- **Excel (Advanced Features)**: Data Cleaning, Transformation, Pivot Tables
 - **ETL Process in Excel**: Data preprocessing using formulas and functions
 - **Pivot Tables:** Data aggregation and summarization
 - **Data Visualization:** Charts, slicers, and dashboards
