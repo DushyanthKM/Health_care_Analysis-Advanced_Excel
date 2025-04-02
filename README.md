@@ -27,7 +27,7 @@ The dataset includes the following key attributes:
    - Bucketing(using NESTIF) - Classified blood sugar levels as Normal, Pre-Diabetic, and Diabetic.
    
 2. **Data Aggregation & Transformation**
-   - Used logical and (`IF`, `VLOOKUP`, `COUNTIF`) for aggregation and joining multiple sheets.
+   - Used logical and conditional formulas i.e, `AVERAGEIF`,  `COUNTIF`, `VLOOKUP`, for aggregation and joining multiple sheets.
    - Created Pivot Tables to generate key insights.
   
 3. **Dashboard Creation**
@@ -39,8 +39,8 @@ The dataset includes the following key attributes:
    - **Smoking and Cancer Risk:** Non-smokers had a higher cancer history, suggesting that other factors contribute to cancer risk.
    - **Obesity & Cancer Correlation:** Overweight and obese patients showed a higher incidence of cancer.
    - **Obesity & Hospital Costs:** Obese patients incurred higher hospital charges, even with normal blood sugar levels.
-   - **Region-wise Costs:** Tier 2 hospitals had the highest charges, potentially due to limited healthcare infrastructure.
-   - **Age-cost Distribution:** Hospital charges increased with age, with a sharp rise after 60.
+   - **Region-Wise Costs:** Tier 2 hospitals had the highest charges, potentially due to limited healthcare infrastructure.
+   - **Age & Cost Relaionship:** Hospital charges increased with age, with a sharp rise after 60.
 
 ## 🔹Conclusion
 This analysis highlights the importance of maintaining a healthy weight and blood sugar levels to prevent cancer and reduce healthcare costs. Additionally, Tier 2 cities should focus on improving healthcare infrastructure and awareness to minimize hospital charges.
