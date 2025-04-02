@@ -21,14 +21,13 @@ The dataset includes the following key attributes:
 ## 🏗️ Methodology
 1. **Data Cleaning & Preparation**
    - Handled missing values using mean, median, and mode.
-   - Standardized data format.
+   - Standardized data format using text functions - TRIM , SEARCH , LENGTH , PROPER  
    - Removed duplicates and unnecessary columns.
-   - Categorized BMI into Underweight, Healthy, Overweight, and Obese.
-   - Classified blood sugar levels as Normal, Pre-Diabetic, and Diabetic.
+   - Bucketing(using NESTIF) - Categorized BMI into Underweight, Healthy, Overweight, and Obese.
+   - Bucketing(using NESTIF) - Classified blood sugar levels as Normal, Pre-Diabetic, and Diabetic.
    
 2. **Data Aggregation & Transformation**
-   - Segmented patient data based on BMI and Blood Sugar levels.
-   - Used conditional formulas (`IF`, `VLOOKUP`, `COUNTIF`) for categorization.
+   - Used logical and (`IF`, `VLOOKUP`, `COUNTIF`) for aggregation and joining multiple sheets.
    - Created Pivot Tables to generate key insights.
   
 3. **Dashboard Creation**
@@ -40,8 +39,8 @@ The dataset includes the following key attributes:
    - **Smoking and Cancer Risk:** Non-smokers had a higher cancer history, suggesting that other factors contribute to cancer risk.
    - **Obesity & Cancer Correlation:** Overweight and obese patients showed a higher incidence of cancer.
    - **Obesity & Hospital Costs:** Obese patients incurred higher hospital charges, even with normal blood sugar levels.
-   - **Column Chart:** Tier 2 hospitals had the highest charges, potentially due to limited healthcare infrastructure.
-   - **Line Chart:** Hospital charges increased with age, with a sharp rise after 60.
+   - **Region-wise Costs:** Tier 2 hospitals had the highest charges, potentially due to limited healthcare infrastructure.
+   - **Age-cost Distribution:** Hospital charges increased with age, with a sharp rise after 60.
 
 ## 🔹Conclusion
 This analysis highlights the importance of maintaining a healthy weight and blood sugar levels to prevent cancer and reduce healthcare costs. Additionally, Tier 2 cities should focus on improving healthcare infrastructure and awareness to minimize hospital charges.
