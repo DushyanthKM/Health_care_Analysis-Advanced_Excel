@@ -20,22 +20,20 @@ The dataset includes the following key attributes:
 
 ## 🏗️ Methodology
 1. **Data Cleaning & Preparation**
-   - Handled missing values using mean, median, and mode.
-   - Standardized data format using text functions - TRIM , SEARCH , LENGTH , PROPER  
    - Removed duplicates and unnecessary columns.
+   - Standardized data format using text functions - TRIM , SEARCH , LENGTH , PROPER  
    - Bucketing(using NESTIF) - Categorized BMI into Underweight, Healthy, Overweight, and Obese.
    - Bucketing(using NESTIF) - Classified blood sugar levels as Normal, Pre-Diabetic, and Diabetic.
-   
-2. **Data Aggregation & Transformation**
-   - Used logical and conditional formulas i.e, `AVERAGEIF`,  `COUNTIF`, `VLOOKUP`, for aggregation and joining multiple sheets.
+   - Performed EDA to unlock key metrics of the dataset using logical and conditional formulas i.e, `AVERAGEIF`,  `COUNTIF`, `SUMIF`, for aggregation
+   - Utilized Vlookup for joining multiple sheets and transfered the cleaned data into a new sheet using paste-values.
    - Created Pivot Tables to generate key insights.
   
-3. **Dashboard Creation**
+2. **Dashboard Creation**
    - Designed an **interactive Excel dashboard**.
    - Used dynamic charts and slicers for filtering insights.
    - Visualized trends in BMI, Blood Sugar, and Hospital Charges.
 
-4. **📈 Data Analysis & Key Insights Generated**
+3. **📈 Data Analysis & Key Insights Generated**
    - **Smoking and Cancer Risk:** Non-smokers had a higher cancer history, suggesting that other factors contribute to cancer risk.
    - **Obesity & Cancer Correlation:** Overweight and obese patients showed a higher incidence of cancer.
    - **Obesity & Hospital Costs:** Obese patients incurred higher hospital charges, even with normal blood sugar levels.
